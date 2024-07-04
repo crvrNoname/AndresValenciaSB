@@ -6,6 +6,12 @@
   font-size: 1.1em;
 }
 
+.og-image {
+  width: 100%;
+  max-width: 7rem;
+  height: auto;
+}
+
 body {
   width: 98vw;
   height: auto;
