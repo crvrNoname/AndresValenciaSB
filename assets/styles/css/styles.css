@@ -6,13 +6,6 @@
   font-size: 1.1em;
 }
 
-.og-image {
-  width: 100%;
-  max-width: 3rem;
-  height: auto;
-  background-color: red;
-}
-
 body {
   width: 98vw;
   height: auto;
