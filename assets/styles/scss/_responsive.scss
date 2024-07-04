@@ -2,6 +2,7 @@
 @media (max-width:768px) {
   .contenedor {
     width: 0 auto;
+    background-color: $clr-gris;
     font-size: 0.6em;
     display: grid;
     grid-template-columns: 1fr;
