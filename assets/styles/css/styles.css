@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 95vw;
+  width: 98vw;
   height: auto;
   background-color: rgb(240, 240, 240);
 }
@@ -666,6 +666,7 @@ caption {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .contenedor {
+    width: 0 auto;
     font-size: 0.6em;
     display: grid;
     grid-template-columns: 1fr;
