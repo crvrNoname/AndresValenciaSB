@@ -205,7 +205,7 @@ main article img {
 
 article {
   width: 100%;
-  max-width: 25rem;
+  max-width: 55rem;
   height: auto;
   margin: 0 auto;
   padding: 2vh;
@@ -280,7 +280,7 @@ p + .seccion-titulo {
 /*Footer*/
 footer {
   height: auto;
-  width: 99%;
+  width: 100%;
   padding: 5px;
   margin: 0;
   text-align: center;
@@ -341,8 +341,9 @@ article > p {
   cursor: pointer;
   overflow: hidden;
   color: #f1f5f9;
-  width: 25%;
-  min-height: 9.5rem;
+  width: 100%;
+  max-width: 35rem;
+  min-height: 4.5rem;
   margin: 0 auto;
 }
 .perfilPeluquero:hover {
@@ -360,6 +361,7 @@ article > p {
 }
 .seccionPerfil img {
   width: 100%;
+  max-width: 8rem;
   aspect-ratio: 1/1;
   object-fit: cover;
   margin: 0;
@@ -372,8 +374,7 @@ article > p {
   justify-content: start;
   padding: 1rem;
   margin: 0 auto;
-  width: auto;
-  max-width: 55%;
+  width: 90%;
 }
 .resenhaFoto > h2 {
   font-size: clamp(1rem, 2vw, 1.3rem);
@@ -386,6 +387,7 @@ article > p {
   font-weight: 400;
   margin: 0.4rem 0;
   font-family: salonDeBelleza;
+  width: fit-content;
 }
 .resenhaFoto a {
   color: #f1f5f9;
