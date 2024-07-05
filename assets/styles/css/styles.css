@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
   background-color: rgb(240, 240, 240);
 }
+body .contenedor {
+  width: 100%;
+  min-height: 100vh;
+}
 
 .logoWhatsapp {
   width: 60px;
@@ -185,7 +189,7 @@ aside img {
 }
 
 main {
-  width: 82.5vw;
+  width: 82.5%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -198,7 +202,7 @@ main article img {
 }
 
 article {
-  width: 80vw;
+  width: 80%;
   min-width: 400px;
   height: auto;
   margin: 0 auto;
