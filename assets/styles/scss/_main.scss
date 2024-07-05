@@ -15,8 +15,9 @@ main {
 }
 
 article {
-  width: 80%;
-  min-width: 400px;
+  width: 100%;
+  max-width: 25rem;
+  
   height: auto;
   margin: 0 auto;
   padding: 2vh;

@@ -3,16 +3,18 @@
 * {
   margin: 0 auto;
   padding: 0;
-  font-size: 1.1em;
   box-sizing: border-box;
 }
 
-body {
+html {
+  font-size: 1.1em;
+}
+html body {
   width: 100%;
   min-height: 100vh;
   background-color: rgb(240, 240, 240);
 }
-body .contenedor {
+html body .contenedor {
   width: 100%;
   min-height: 100vh;
 }
@@ -202,8 +204,8 @@ main article img {
 }
 
 article {
-  width: 80%;
-  min-width: 400px;
+  width: 100%;
+  max-width: 25rem;
   height: auto;
   margin: 0 auto;
   padding: 2vh;
