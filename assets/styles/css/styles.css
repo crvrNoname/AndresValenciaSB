@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/*// VARIABLES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/* General */
+/*GENERAL @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 * {
   margin: 0 auto;
   padding: 0;
@@ -46,6 +45,7 @@ html body .contenedor {
   transition: transform 0.3s;
 }
 
+/*FONTS CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 @font-face {
   font-family: andresValencia;
   src: url("./../../fonts/lucidafaxItalic/lucidafaxItalic.ttf") format("truetype");
@@ -54,6 +54,7 @@ html body .contenedor {
   font-family: salonDeBelleza;
   src: url("./../../fonts/isocteurregular/isocteurregular.ttf") format("truetype");
 }
+/*HEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 header {
   height: 8rem;
   margin: 0 auto;
@@ -177,6 +178,7 @@ ul li a {
   color: #f1f5f9;
 }
 
+/*ASIDE CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 aside {
   grid-area: aside;
   width: auto;
@@ -191,6 +193,7 @@ aside img {
   border-radius: 15px;
 }
 
+/*MAIN @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 main {
   width: 82.5%;
   height: auto;
@@ -278,7 +281,7 @@ p + .seccion-titulo {
   flex-wrap: wrap;
 }
 
-/*Footer*/
+/*FOOTER CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 footer {
   height: auto;
   width: 100%;
@@ -303,7 +306,7 @@ footer p {
   text-align: center;
 }
 
-/* GALERIA CSS */
+/*GALERIA CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 article {
   background-color: rgb(47, 120, 82);
   border-radius: 1rem;
@@ -450,7 +453,7 @@ article > p {
   flex: 1 0 5rem;
 }
 
-/* EVENTOS CSS */
+/*EVENTOS CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 table {
   border-collapse: collapse;
   background: rgb(13, 67, 40);
@@ -500,7 +503,7 @@ caption {
   background-color: #f1f5f9;
 }
 
-/* AGENDAR CSS */
+/*AGENDAR CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .form {
   width: fit-content;
   height: auto;
@@ -607,7 +610,7 @@ caption {
   background-color: rgb(240, 240, 240);
 }
 
-/* SERVICIOS CSS */
+/* SERVICIOS CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 #lista-precios {
   width: 80%;
   margin: 0 auto;
@@ -672,7 +675,7 @@ caption {
   margin: 10px auto;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 @media (max-width: 768px) {
   .contenedor {
     background-color: rgb(234, 235, 231);
