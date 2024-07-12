@@ -178,6 +178,10 @@ ul li a {
   color: #f1f5f9;
 }
 
+#navbarNav li:hover {
+  box-shadow: 0 0 10px rgb(20, 20, 20);
+}
+
 /*ASIDE CSS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 aside {
   grid-area: aside;
@@ -489,6 +493,11 @@ th {
 
 tbody tr:nth-child(even) {
   background: rgb(47, 120, 82);
+}
+
+#calendario th:hover,
+#calendario td:hover {
+  box-shadow: 0 0 10px rgb(20, 20, 20);
 }
 
 caption {

@@ -45,6 +45,11 @@ tbody tr:nth-child(even) {
   background: $clr-verde1;
 }
 
+#calendario th:hover,
+#calendario td:hover {
+  box-shadow: 0 0 10px $clr-negro;
+}
+
 caption {
   font-size: 1.5rem;
   font-weight: bold;
@@ -56,3 +61,5 @@ caption {
   color: $clr-negro;
   background-color: $clr-blanco;
 }
+
+

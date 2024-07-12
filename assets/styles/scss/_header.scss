@@ -130,4 +130,10 @@ ul li {
   a {
     color: $clr-blanco;
   }
+
+   
 }
+#navbarNav li:hover {
+  box-shadow: 0 0 10px $clr-negro;
+}
+
